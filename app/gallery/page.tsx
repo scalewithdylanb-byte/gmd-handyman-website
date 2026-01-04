@@ -44,7 +44,7 @@ export default function GalleryPage() {
         title="A closer look at recent finishes"
         description="Browse a mix of clean installs, thoughtful upgrades, and detail-first repairs—each crafted to feel at home in your space."
       >
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {galleryImages.map((image) => (
             <figure
               key={image.src}

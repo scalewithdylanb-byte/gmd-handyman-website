@@ -45,7 +45,7 @@ export default function ServicesPage() {
         title="Detailed help for every room and project"
         description="Choose the category that fits your to-do list. Each visit comes with clear communication, tidy work areas, and results that last."
       >
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           {serviceCategories.map((service) => (
             <Card
               key={service.title}

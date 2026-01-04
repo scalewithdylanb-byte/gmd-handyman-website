@@ -28,12 +28,13 @@ export function Section({
       : "items-start text-left";
 
   return (
-    <section id={id} className="px-6 py-12 lg:px-10">
+    <section id={id} className="px-4 py-10 sm:px-6 sm:py-12 lg:px-10 lg:py-16">
       <div className="mx-auto max-w-5xl">
         <div
           className={cn(
-            "flex flex-col gap-8",
-            surface && "rounded-2xl bg-white p-8 shadow-sm ring-1 ring-neutral-200",
+            "flex flex-col gap-8 md:gap-10",
+            surface &&
+              "rounded-2xl bg-white p-6 shadow-sm ring-1 ring-neutral-200 sm:p-8",
             className,
           )}
         >
@@ -45,12 +46,14 @@ export function Section({
                 </span>
               )}
               {title && (
-                <h2 className="text-3xl font-semibold tracking-tight text-neutral-900 sm:text-4xl">
+                <h2 className="text-3xl font-semibold tracking-tight text-neutral-900 sm:text-4xl lg:text-5xl">
                   {title}
                 </h2>
               )}
               {description && (
-                <p className="max-w-2xl text-lg text-neutral-700">{description}</p>
+                <p className="max-w-2xl text-base text-neutral-700 sm:text-lg">
+                  {description}
+                </p>
               )}
             </div>
           )}
