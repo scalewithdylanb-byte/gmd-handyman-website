@@ -41,9 +41,9 @@ export function Header() {
 
         <div className="flex flex-1 items-center justify-end gap-3 md:flex-none">
           <span className="hidden text-sm font-medium text-neutral-600 md:inline">
-            Call: (800) 555-1234
+            Call: 407-467-2629
           </span>
-          <Button href="mailto:hello@gmdhandyman.com" size="md">
+          <Button href="mailto:gilhandyman407@gmail.com" size="md">
             Get a quote
           </Button>
         </div>
