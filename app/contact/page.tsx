@@ -52,12 +52,13 @@ export default function ContactPage() {
         description="Share what you need help with, and we’ll follow up with a clear plan and timing."
         className="gap-10"
       >
-        <div className="grid w-full gap-4 md:grid-cols-2">
+        <div className="grid w-full grid-cols-1 gap-4 md:grid-cols-2">
           {contactMethods.map((method) => (
             <a
               key={method.label}
               href={method.href}
               className="flex flex-col gap-2 rounded-2xl bg-white p-6 text-left shadow-sm ring-1 ring-neutral-200 transition hover:-translate-y-0.5 hover:ring-primary-200"
+              aria-label={`${method.label}: ${method.value}`}
             >
               <span className="text-sm font-semibold uppercase tracking-wide text-primary-700">
                 {method.label}

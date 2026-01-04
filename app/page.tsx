@@ -154,7 +154,7 @@ export default function Home() {
           </Button>
         </div>
 
-        <div className="grid w-full gap-4 rounded-2xl bg-white p-6 shadow-sm ring-1 ring-neutral-200 sm:grid-cols-3">
+        <div className="grid w-full grid-cols-1 gap-4 rounded-2xl bg-white p-6 shadow-sm ring-1 ring-neutral-200 sm:grid-cols-3">
           {heroHighlights.map((item) => (
             <div key={item.title} className="space-y-2 text-left">
               <h2 className="text-lg font-semibold text-neutral-900">{item.title}</h2>
@@ -171,7 +171,7 @@ export default function Home() {
         title="Quick preview of how we can help"
         description="Clear, friendly handyman support for the fixes and upgrades that matter most."
       >
-        <div className="grid gap-4 md:grid-cols-2">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
           {serviceHighlights.map((service) => (
             <div
               key={service.title}
@@ -197,7 +197,7 @@ export default function Home() {
         title="Services tailored to your to-do list"
         description="Whether it’s a quick fix or a room-by-room update, we bring the right tools, know-how, and communication to each project."
       >
-        <div className="grid gap-6 md:grid-cols-3">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
           {services.map((service) => (
             <Card
               key={service.title}
@@ -222,7 +222,7 @@ export default function Home() {
         title="Why homeowners choose GMD Handyman Services"
         description="You get a responsive partner who treats your project like their own—from the first walkthrough to the final cleanup."
       >
-        <div className="grid gap-6 md:grid-cols-3">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
           {values.map((value) => (
             <Card key={value.title} title={value.title} description={value.description} />
           ))}
@@ -235,7 +235,7 @@ export default function Home() {
         title="Recent projects and finishes"
         description="A glimpse into the kind of detail and care we bring to every room."
       >
-        <div className="grid gap-4 md:grid-cols-2">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
           {gallery.map((project) => (
             <Card key={project.title} title={project.title} description={project.description} />
           ))}
@@ -259,7 +259,7 @@ export default function Home() {
           </span>
         </div>
 
-        <div className="grid gap-6 md:grid-cols-3">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
           {testimonials.map((testimonial) => (
             <div
               key={testimonial.name}
