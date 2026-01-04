@@ -146,10 +146,10 @@ export default function Home() {
         </div>
 
         <div className="flex flex-wrap items-center justify-center gap-4">
-          <Button href="tel:+18005551234" size="lg">
+          <Button href="tel:+14074672629" size="lg">
             Call now
           </Button>
-          <Button href="mailto:hello@gmdhandyman.com" variant="secondary" size="lg">
+          <Button href="mailto:gilhandyman407@gmail.com" variant="secondary" size="lg">
             Get a free quote
           </Button>
         </div>
@@ -288,11 +288,11 @@ export default function Home() {
         description="Tell us what you need help with and we’ll provide a clear plan, pricing, and a schedule that fits."
       >
         <div className="flex flex-wrap items-center justify-center gap-4">
-          <Button href="mailto:hello@gmdhandyman.com" size="lg">
+          <Button href="mailto:gilhandyman407@gmail.com" size="lg">
             Request a quote
           </Button>
-          <Button href="tel:+18005551234" variant="secondary" size="lg">
-            Call (800) 555-1234
+          <Button href="tel:+14074672629" variant="secondary" size="lg">
+            Call 407-467-2629
           </Button>
         </div>
       </Section>

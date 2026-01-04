@@ -33,11 +33,11 @@ export function Footer() {
               communication and respect for your home.
             </p>
             <div className="flex flex-wrap gap-3">
-              <Button href="mailto:hello@gmdhandyman.com" size="md">
+              <Button href="mailto:gilhandyman407@gmail.com" size="md">
                 Get a free quote
               </Button>
-              <Button href="tel:+18005551234" variant="secondary" size="md">
-                Call (800) 555-1234
+              <Button href="tel:+14074672629" variant="secondary" size="md">
+                Call 407-467-2629
               </Button>
             </div>
           </div>
@@ -66,8 +66,8 @@ export function Footer() {
                 Contact
               </h3>
               <div className="space-y-2 text-sm text-neutral-700">
-                <p>Phone: (800) 555-1234</p>
-                <p>Email: hello@gmdhandyman.com</p>
+                <p>Phone: 407-467-2629</p>
+                <p>Email: gilhandyman407@gmail.com</p>
                 <p>Service area: Greater GMD region</p>
               </div>
             </div>
