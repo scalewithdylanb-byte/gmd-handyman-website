@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-neutral-50 text-neutral-900 antialiased;
+}
+
+a {
+  @apply text-primary-600 underline-offset-4 transition-colors hover:text-primary-700 hover:underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-semibold text-neutral-900;
+}
+
+p {
+  @apply text-base leading-relaxed text-neutral-700;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center gap-2 rounded-md px-4 py-2 font-semibold transition-colors duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2;
+}
+
+.btn-primary {
+  @apply bg-primary-600 text-white shadow hover:bg-primary-700 focus-visible:outline-primary-500;
+}
+
+.btn-secondary {
+  @apply bg-white text-primary-700 ring-1 ring-primary-200 hover:bg-primary-50 focus-visible:outline-primary-500;
+}
